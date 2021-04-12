@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+	--my-custom-color: #ff0000;
+	--my-custom-color-50: #00ff00;
+	--my-custom-color-100: #00f;
+}

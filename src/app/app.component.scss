@@ -1,0 +1,9 @@
+a {
+	@apply underline;
+	color: theme('colors.blue.400');
+	font-size: theme('fontSize.xl');
+}
+
+.dark-container {
+	@apply dark:bg-blue-800;
+}
